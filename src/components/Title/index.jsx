@@ -1,9 +1,10 @@
 import React from 'react'
 
-export const NavBar = () => {
-    return(
-        <h1>NavBar</h1>
+export const Title = (props) => {
+    console.log(props);
+    return (
+        <h1>{props.greeting}</h1>
     );
 }
 
-export default NavBar;
+export default Title;
